@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-weight: bold;
+    background: linear-gradient( #efd5ff 0%, #515ada 100%);
+}
+
+#container {
+    background-color: #E90418;
+    border-radius: 20px;
+    height: 720px;
+    width: 800px;
+    padding-bottom: 10px;  
+    box-shadow: 0 0 15px black;  
+}
+
+#title {
+    color: #FFE4BA;
+    font-size: 70px;
+    font-weight: bolder;
+    margin: 10px;
+    text-align: center;
+}
+
+#grid {
+    background-color:rgb(251, 244, 236);
+    height: 480px;
+    width: 600px;
+    border-radius: 10px;
+    z-index: 1;
+    margin-left: 100px;
+    box-shadow: 0 0 10px black;
+    margin-bottom: 15px;
+}
+
+#controls {
+    display: flex;
+    justify-content: space-between;
+}
+
+#left-controller,
+#right-controller {
+    background-color: rgb(251, 244, 236);
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;       
+    box-shadow: 0px 0px 10px black;
+}
+
+#left-controller {
+    margin-left: 20px;
+}
+
+#right-controller {
+    margin-right: 20px;
+}
+
+#footer {
+    color: black;
+    font-size: 18px;
+    font-weight: 250;
+    height: 5vw;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer a {
+    text-decoration: none;
+    color: black;
+}
